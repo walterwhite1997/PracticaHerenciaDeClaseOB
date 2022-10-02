@@ -5,10 +5,10 @@ public class Main {
      cliente.nombre = "Walter";
      cliente.telefono = 93334445;
      cliente.credito = 152364;
-     System.out.println("Edad del cliente: " + cliente.edad);
-        System.out.println("Nombre cliente: " + cliente.nombre);
-        System.out.println("Numero de telefono: " + cliente.telefono);
-        System.out.println("Credito del cliente: " + cliente.credito);
+     System.out.println("Mi nombre es " + cliente.nombre + ", tengo " + cliente.edad + " años mi telefono es " + cliente.telefono
+                + " y mi credito disponible es de " + cliente.credito + "$");
+
+   
 
 
      Trabajador trabajador = new Trabajador();
@@ -16,11 +16,9 @@ public class Main {
         trabajador.nombre = "Julio";
         trabajador.telefono = 2342341;
         trabajador.salario = 23213;
-        System.out.println("Edad del trabajador: " + trabajador.edad);
-        System.out.println("Nombre del trabajador: " + trabajador.nombre);
-        System.out.println("Numero de telefono: " + trabajador.telefono);
-        System.out.println("Salario: " + trabajador.salario);
-    }
+         System.out.println("Mi nombre es " + trabajador.nombre + ", tengo " + trabajador.edad + " años, mi telefono es el " + trabajador.telefono
+                + " y mi salario es de " + trabajador.salario + "$");
+      
 }
 
 class Persona {
